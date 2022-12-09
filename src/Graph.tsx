@@ -42,13 +42,13 @@ class Graph extends Component<IProps, {}> {
       elem.setAttribute('row-pivots', '["timestamp"]');
       elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
       elem.setAttribute('aggregates', JSON.stringify({
-        price_abc: 'avg',
-        price_def: 'avg',
-        ratio: 'avg',
-        timestamp: 'distinct count',
-        upper_bound: 'avg',
-        lower_bound: 'avg',
-        trigger_alert: 'avg',
+          price_abc: 'avg',
+          price_def: 'avg',
+          ratio: 'avg',
+          timestamp: 'distinct count',
+          upper_bound: 'avg',
+          lower_bound: 'avg',
+          trigger_alert: 'avg',
       }));
     }
   }
@@ -63,3 +63,5 @@ class Graph extends Component<IProps, {}> {
 }
 
 export default Graph;
+
+//Checking
